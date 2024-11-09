@@ -98,6 +98,7 @@ vim.g.have_nerd_font = false
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
 
+vim.opt.number = true
 vim.opt.relativenumber = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
@@ -116,6 +117,11 @@ end)
 
 -- Enable break indent
 vim.opt.breakindent = true
+
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+vim.opt.autoindent = true
 
 -- Save undo history
 vim.opt.undofile = true
