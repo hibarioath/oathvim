@@ -120,8 +120,8 @@ end)
 -- Enable break indent
 vim.opt.breakindent = true
 
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.autoindent = true
 
